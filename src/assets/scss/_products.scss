@@ -1,0 +1,74 @@
+.products{
+    display: flex;
+    
+    align-content: center;
+    &__block{
+        flex-basis: 25%;
+        padding: 50px 0;
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex-shrink: 0;
+    }
+    
+    &__title{
+        padding-bottom: 15px;
+        padding-top: 30px;
+        max-width: 200px;
+        font-family: Muli-Bold;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+        line-height: 26px;
+    }
+    &__desc{
+        font-weight: normal;
+        font-family: Muli-Italic;
+        color: #ffffff;
+        display: block;
+        font-size: 21px;
+        margin-top: -5px;
+        
+    }
+    &__block--grey, .products__btn--grey{
+        background-color: #632b17;
+    }
+    &__block--green, .products__btn--green{
+        background-color: #178670;
+    }
+    &__block--yellow, .products__btn--yellow{
+        background-color: #f7ae3b;
+    }
+    &__block--orang, .products__btn--orange{
+        background-color: #c3471b;
+    }
+    
+    &__btn{
+        font-family: Muli-ExtraBold;
+        font-size: 21px;
+        font-weight: 800;
+        color: #ffffff;
+        border: solid 2px #ffffff;
+        min-width: 200px;
+        min-height: 60px;
+        margin-top: 61px;
+        margin-bottom: 12px;
+        padding-right: 35px;
+        padding-left:35px;
+        text-align: left;
+        background: url(../images/product-arrow.png) no-repeat 130px ;
+        transition: all 2s ;
+        -webkit-transition: all 2s ;
+        -moz-transition: all 2s ;
+        -ms-transition: all 2s ;
+        -o-transition: all 2s ;
+    }
+    
+    
+    
+}
+.animate__jello{
+    background-color:#ffffff;
+}

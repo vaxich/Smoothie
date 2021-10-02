@@ -1,0 +1,120 @@
+.testimonials{
+    min-height: 720px;
+    background-color: #672f1b;
+    position: relative;
+    &__title{
+        font-family: Muli-ExtraBold;
+        font-size: 50px;
+        font-weight: 800;
+        text-align: center;
+        color: #f7ae3b;
+        padding-top: 110px;
+        padding-bottom: 100px;
+        
+        letter-spacing: -1px;
+    }
+    &__title::after{
+        content: "";
+        display: block;
+        right: 1px;
+        top: -80px;
+        width: 500px;
+        height: 300px;
+        background-image: url(../images/Dots.png);
+        background-repeat: no-repeat;
+        position: absolute;  
+    }
+    
+    
+    &__title--big{
+        color:  #f2612d;  
+        
+        
+    }
+    &__center{
+        display: flex;
+        justify-content: center;
+        font-family: Muli;
+        font-size: 18px;
+        font-weight: normal;
+        color: #ffffff;
+        position: relative;
+        
+    }
+    &__avatar{
+        padding-left: 60px;
+        padding-top: 20px;
+        z-index: 2;
+    }
+    &__center::before {
+        content:"Sarah A";
+        font-family: Muli-ExtraBold;
+        font-size: 200px;
+        font-weight: 800;
+        color:#5b230f;
+        position: absolute;
+        top: -25%;
+        
+        letter-spacing: -4px;
+        
+    }
+    &__text{
+        padding-top: 73px;
+        padding-left: 10px;
+        position: relative;
+        max-width: 455px;
+        max-height: 130px;
+        font-family: Muli-Regular;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 35px;
+    }
+    &__center--copy{
+        font-family: Muli-SemiBoldItalic;
+        color: #f7ae3b;
+        display: block;
+        text-align: center;
+        padding-top: 11px;
+        
+    }
+    &__btn{
+        padding-top:120px;
+        display: flex;
+        justify-content: center;
+    }
+    &__btn--left{
+        margin-right: 47px;
+        width: 30px;
+        height: 16px;
+        padding: 0;
+        border: none;
+        font: inherit;
+        color: inherit;
+        background-color: transparent;
+        cursor: pointer;
+        transform: rotate(180deg)    ;
+        -webkit-transform: rotate(180deg)    ;
+        -moz-transform: rotate(180deg)    ;
+        -ms-transform: rotate(180deg)    ;
+        -o-transform: rotate(180deg)    ;
+    }
+    &__btn--right{
+        margin-left: 47px;
+        width: 30px;
+        height: 16px;
+        padding: 0;
+        border: none;
+        font: inherit;
+        color: inherit;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+}
+
+.btn-left{
+    background: url(../images/Arrow.png) no-repeat center;
+}
+.btn-right{
+    background: url(../images/Arrow.png) no-repeat center;
+}

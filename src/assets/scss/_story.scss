@@ -1,0 +1,83 @@
+.story__container{
+    padding: 0 10px;
+    padding-top:124px;
+    padding-bottom: 153px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.story__left {
+    max-width: 511px;
+}
+.story__right{
+    position: relative;
+    
+}
+.story__title{
+    font-family: Muli-ExtraBold;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 136px;
+    
+    color: #f7ae3b;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+.story__text{
+    padding-top: 42px;
+    max-width: 510px;
+    font-family: Muli-Regular;
+    font-size: 18px;
+    font-weight: normal;
+    
+    
+    line-height: 35px;
+}
+.story__btn{
+    font-family: Muli-ExtraBold;
+    font-size: 21px;
+    font-weight: 800;
+    margin-top: 48px;
+    padding-left:30px;
+    min-width: 301px;
+    height: 60px;
+    text-align: left;
+    position: relative;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color:  #14826f ;
+    
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+.story__btn::after{
+    content:"";
+    background-image: url(../images/Arrow.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 16px;
+    width: 30px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+
+
+.story__right::before{
+    content: "";
+    display: block;
+    
+    width: 290px;
+    height: 200px;
+    background-image: url(../images/Stamp.png);
+    background-repeat: no-repeat;
+    top: 20px;
+    position: absolute;
+    right:460px;
+    
+}

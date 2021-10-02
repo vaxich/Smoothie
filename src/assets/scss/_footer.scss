@@ -1,0 +1,147 @@
+.footer__container{
+    
+    min-height: 375px;
+    background-color: #f6ab3b;
+}
+.footer__column{
+    flex-basis: 20%;
+}
+.footer__top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top:80px;
+    padding-left:100px;
+    padding-right:83px;
+}
+.footer__logo-img{
+    padding-top:55px;
+}
+.footer__title{
+    margin-bottom: 25px;
+    font-family: Muli-ExtraBold;
+    font-size: 26px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.footer__column__1{
+    margin-left: 86px;
+}.payment{
+    margin-left: -100px;
+}
+.footer__column__2{
+    padding-right: 15px;
+}
+.footer__item{
+    list-style-type: none;
+    
+}
+.footer__link{
+    text-decoration: none;
+    margin-right: 60px;
+    font-family: Muli-Bold;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.94;
+    text-align: left;
+    color: #6d450c;
+}
+
+.payment__img{
+    padding-bottom:20px;
+    padding-right:10px;
+}
+.footer__right-input{
+    min-height: 60px;
+    min-width: 500px;
+    border-radius: 30px;
+    border: none;
+    background-image: url(../images/mail.png);
+    background-repeat: no-repeat;
+    background-position: 15px 22px;
+}
+.follow__btn{ 
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: Muli-ExtraBold;
+    font-size: 18px;
+    font-weight: 800;
+    color: #6d450c;
+}
+.follow__cosial{
+    margin-left: 43px;
+    margin-right: -17px;
+}
+.follow{
+    padding-top: 26px;
+    padding-left: 195px;
+    position: relative;
+}
+.follow::before{
+    content:"";
+    background-image: url(../images/Arrow-footer.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    right:3300px;
+    top: 16px;
+}
+::placeholder{
+    color: #6d450c;
+    padding-left: 50px;
+    font-size: 17px;
+    font-family: Muli-Bold;
+    font-weight: bold;
+}
+.footer__bottom{
+    min-height: 60px;
+    background-color: #6c2c1c;
+    
+}
+.footer__copyright{
+    font-family: Muli-Regular;
+    font-size: 13px;
+    font-weight: normal;
+    display: block;
+    text-align: center;
+    color: #af8a82;
+    padding-top:25px;
+}
+.footer__go-up{
+    position: relative;
+}
+.footer__go-up::before{
+    content:"Go top";
+    font-family:Muli-Bold;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    text-align: right;
+    padding-right: 165px;
+    position: fixed;
+    bottom: 21px;
+    right: 33px;
+}
+.footer__go-up::after{
+    content:"";
+    border: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f2662f;
+    background-image: url(../images/Icon-vverh.png);
+    background-repeat: no-repeat;
+    display: block;
+    align-items: center;
+    position: fixed;
+    bottom: 40px;
+    right: 103px;
+    z-index: 999;
+    background-position: center center;
+}
